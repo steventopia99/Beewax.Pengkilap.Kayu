@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beewax Pengkilap Kayu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Beewax Pengkilap Kayu</h1>
+        <p>Kilap Kayu Anda Jadi Lebih Tahan Lama dan Mewah!</p>
+    </header>
+
+    <div class="promo-banner">
+        <p>PROMO TERBATAS! Beli Sekarang dan Dapatkan GRATIS ONGKIR + COD!</p>
+    </div>
+
+    <div class="product-gallery">
+        <div class="product-item">
+            <img src="10.jpg" alt="Beewax Pengkilap Kayu">
+        </div>
+        <div class="product-item">
+            <img src="11.jpg" alt="Beewax Pengkilap Kayu">
+        </div>
+        <div class="product-item">
+            <img src="12.jpg" alt="Beewax Pengkilap Kayu">
+        </div>
+    </div>
+
+    <div class="product-info">
+        <h2>Kelebihan Produk:</h2>
+        <ul>
+            <li>Pengkilap Kayu Premium</li>
+            <li>Lebih Tahan Lama</li>
+            <li>Mudah Digunakan</li>
+            <li>Menambah Kilau Alami Kayu</li>
+        </ul>
+    </div>
+
+    <div class="tier-pricing">
+        <div class="option" onclick="selectProduct('Beli 1')">
+            <h3>Beli 1</h3>
+            <p class="price">Rp 79.000</p>
+        </div>
+        <div class="option" onclick="selectProduct('Beli 2')">
+            <h3>Beli 2</h3>
+            <p class="price">Rp 99.000</p>
+        </div>
+        <div class="option" onclick="selectProduct('Beli 3')">
+            <h3>Beli 3</h3>
+            <p class="price">Rp 151.000</p>
+        </div>
+    </div>
+
+    <div class="order-form">
+        <h2>Pesan Sekarang</h2>
+        <form>
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" name="nama" id="nama" required>
+
+            <label for="wa">Nomor WhatsApp</label>
+            <input type="text" name="wa" id="wa" required>
+
+            <label for="kecamatan">Kecamatan</label>
+            <input type="text" name="kecamatan" id="kecamatan" required>
+
+            <label for="alamat">Alamat Lengkap</label>
+            <textarea name="alamat" id="alamat" required></textarea>
+
+            <label for="paket">Pilih Paket</label>
+            <select name="paket" id="paket" required>
+                <option value="Beli 1">Beli 1</option>
+                <option value="Beli 2">Beli 2</option>
+                <option value="Beli 3">Beli 3</option>
+            </select>
+
+            <button type="submit" class="wa-button">Pesan Sekarang</button>
+        </form>
+    </div>
+
+    <a href="javascript:void(0);" class="sticky-order-button">Pesan Sekarang</a>
+
+    <div class="testimonials">
+        <h2>Testimoni Pembeli</h2>
+        <div class="testimonial-gallery">
+            <div class="testimonial-item">
+                <img src="13.jpg" alt="Testimoni 1">
+            </div>
+            <div class="testimonial-item">
+                <img src="14.jpg" alt="Testimoni 2">
+            </div>
+            <div class="testimonial-item">
+                <img src="15.jpg" alt="Testimoni 3">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
